@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Fashionable And Sustainable - Survey</title>
+    <link rel="icon" type="image/png" href="./img/favicon.png" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+    </style>
+  </head>
+  <body>
+    <div id="main-container">
+      <div class="vl"></div>
+      <div><hr /></div>
+      <h1 id="title">
+        Can You <span>Change</span> Your <span>Fashion Habits</span> and SAVE
+        THE PLANET?
+      </h1>
+      <h4>Did you know?...</h4>
+      <p id="description">
+        ..."Clothing production is the third biggest manufacturing industry
+        after the automotive and technology industries. Textile production
+        contributes more to climate change than international aviation and
+        shipping combined." (House of Common Environmental Audit Committee,
+        2019)
+      </p>
+      <form id="survey-form">
+        <section id="section-one" class="quest-box">
+          <h3>Have you heard of the term "sustainable fashion"?</h3>
+          <div>
+            <label>
+              <input
+                id="yes"
+                value="yes"
+                type="radio"
+                name="yes-no"
+                checked
+              />Yes </label
+            ><br />
+            <label>
+              <input id="no" value="no" type="radio" name="yes-no" />No
+            </label>
+          </div>
+          <br />
+        </section>
+        <section id="section-two" class="quest-box">
+          <h3>
+            What do you think "sustainable clothing" means?<br />
+            (Please, select all that apply)
+          </h3>
+          <div>
+            <label for="labour">
+              <input
+                id="labour"
+                type="checkbox"
+                name="meaning"
+                value="labour"
+              />Fair labour practices </label
+            ><br />
+            <label for="hippie">
+              <input
+                id="hippie"
+                type="checkbox"
+                name="meaning"
+                value="hippie"
+              />Hippie fashion </label
+            ><br />
+            <label for="recycled">
+              <input
+                id="recycled"
+                type="checkbox"
+                name="meaning"
+                value="recycled"
+              />Recycled fabrics </label
+            ><br />
+            <label for="chemical">
+              <input
+                id="chemical"
+                type="checkbox"
+                name="meaning"
+                value="chemical"
+              />Reduction in chemicals used </label
+            ><br />
+            <label for="durable">
+              <input
+                id="durable"
+                type="checkbox"
+                name="meaning"
+                value="durable"
+              />Durable, long-lasting </label
+            ><br />
+            <label for="priced">
+              <input
+                id="priced"
+                type="checkbox"
+                name="meaning"
+                value="priced"
+              />Over-priced </label
+            ><br />
+          </div>
+        </section>
+        <section id="section-three" class="quest-box">
+          <h3>
+            What is your main priority when shopping for clothes?<br />(Please,
+            select all that apply)
+          </h3>
+          <div>
+            <label for="quality">
+              <input
+                id="quality"
+                type="checkbox"
+                name="meaning"
+                value="quality"
+              />Quality </label
+            ><br />
+            <label for="cost">
+              <input
+                id="cost"
+                type="checkbox"
+                name="meaning"
+                value="cost"
+              />Cost </label
+            ><br />
+            <label for="trends">
+              <input
+                id="trends"
+                type="checkbox"
+                name="meaning"
+                value="trends"
+              />Fashion trends </label
+            ><br />
+            <label for="sustain">
+              <input
+                id="sustain"
+                type="checkbox"
+                name="meaning"
+                value="sustain"
+              />Whether the retailer produces sustainable clothing</label
+            >
+          </div>
+        </section>
+        <section id="section-four" class="quest-box">
+          <h3>
+            Considering style, comfort and quality are the same, would you
+            purchase sustainable clothing if it costs more than what you would
+            normally pay?
+          </h3>
+          <div>
+            <label>
+              <input
+                id="yess"
+                value="yess"
+                type="radio"
+                name="yess-noo"
+                checked
+              />Yes </label
+            ><br />
+            <label>
+              <input id="noo" value="noo" type="radio" name="yess-noo" />No
+            </label>
+          </div>
+        </section>
+        <section id="section-five" class="quest-box">
+          <h3>
+            How do you dispose of unwanted clothes?<br />(Please, select all
+            that apply)
+          </h3>
+          <div>
+            <label for="donate">
+              <input
+                id="donate"
+                type="checkbox"
+                name="meaning"
+                value="donate"
+              />Donate to charity </label
+            ><br />
+            <label for="throw">
+              <input
+                id="throw"
+                type="checkbox"
+                name="meaning"
+                value="throw"
+              />Throw away </label
+            ><br />
+            <label for="handdown">
+              <input
+                id="handdown"
+                type="checkbox"
+                name="meaning"
+                value="handdown"
+              />Hand down to younger family members </label
+            ><br />
+            <label for="givefriends">
+              <input
+                id="givefriends"
+                type="checkbox"
+                name="meaning"
+                value="givefriends"
+              />Give to friends
+            </label>
+          </div>
+        </section>
+        <section id="section-six">
+          <h3>What is your gender?</h3>
+          <div id="dropdown">
+            <select id="dd-menu">
+              <option value="female">Female</option>
+              <option value="male">Male</option>
+            </select>
+          </div>
+        </section>
+        <section id="section-seven">
+          <div>
+            <h3>Your name</h3>
+            <label for="name" id="name-label"
+              ><!--Name:-->
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Enter your name"
+                required
+              />
+            </label>
+          </div>
+          <div>
+            <p>Your email</p>
+            <label for="email" id="email-label"
+              ><!--Email:-->
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email"
+                required
+              />
+            </label>
+          </div>
+          <div>
+            <p>Your age<br />(optional)</p>
+            <label id="number-label"
+              ><!--Age:-->
+              <input
+                type="number"
+                name="number"
+                id="number"
+                min="10"
+                max="99"
+                placeholder="Age"
+              />
+            </label>
+          </div>
+          <div>
+            <p>
+              Let us know your thoughts about sustainable clothing!<br />(optional)
+            </p>
+            <label for="textarea">
+              <textarea
+                id="textarea"
+                placeholder="Enter your comment here..."
+                style="font-family: sans-serif"
+              ></textarea>
+            </label>
+          </div>
+          <button id="submit" type="submit">Submit</button>
+        </section>
+      </form>
+      <img
+        id="impact-img"
+        alt="negative impact of textile sector on environment"
+        src="./img/envimpact.jpg"
+      />
+      <a href="https://www.surveymonkey.com/">
+        <img
+          class="good-link"
+          alt="Visit survey monkey webpage for more free surveys"
+          src="./img/surveyonkeylogo.png"
+        />
+      </a>
+      <a href="https://goodonyou.eco/">
+        <img
+          class="good-link"
+          alt="Visit goodonyou.eco to read more about sustainability"
+          src="./img/good.png"
+        />
+      </a>
+      <h2>
+        &#9842;<br />Fast fashion is not free.<br />Someone somewhere is
+        paying.<br />&#9842;
+      </h2>
+      <footer>
+        <p>
+          &copy; 2022 made by
+          <a
+            href="mailto:kmilkovick@gmail.com
+          "
+          >
+            milkovick</a
+          >
+        </p>
+      </footer>
+    </div>
+    <div id="left-container">
+      <img src="./img/designone.jpg" alt="" />
+      <img src="./img/designtwo.jpg" alt="" />
+      <img src="./img/designthree.jpg" alt="" />
+      <img src="./img/designfour.jpg" alt="" />
+      <img src="./img/designfive.jpg" alt="" />
+      <img src="./img/designsix.jpg" alt="" />
+    </div>
+  </body>
+</html>

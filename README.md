@@ -1,5 +1,4 @@
 # sustainability-survey
 
 
-sustainability in fashion  / survey
-survey for fcc
+sustainability in fashion  / survey for fcc
